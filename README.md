@@ -1,4 +1,4 @@
-# Official implementation of "LinGCN: Structural Linearized Graph Convolutional Network for Homomorphically Encrypted Inference"
+## Official implementation of "LinGCN: Structural Linearized Graph Convolutional Network for Homomorphically Encrypted Inference"
 
 
 Please cite our paper if you use the code ✔
