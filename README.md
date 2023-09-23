@@ -13,7 +13,7 @@ Please cite our paper if you use the code ✔
 
 ## Overview of the LinGCN Framework
 
-<!-- ![comp](./figures/comp.png) -->
+<!-- ![comp](./figures/overview.png.png) -->
 <img src="./figures/overview.png" width="1000">
 
 We propose LinGCN Framework for structural **Lin**earizated **G**raph **C**onvolution **N**etwork for homomorphically encrypted inference accelerating. 
