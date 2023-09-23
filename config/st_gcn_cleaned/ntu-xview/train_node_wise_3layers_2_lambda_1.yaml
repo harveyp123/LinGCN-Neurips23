@@ -1,0 +1,82 @@
+work_dir: ./work_dir/recognition_256frame/ntu-xview-relu-reduce/ST_GCN_3layers_2_relu_reduce_lambda_1
+
+#### Load the weight into the model
+weights: ./work_dir/recognition_256frame/ntu-xview/ST_GCN_3layers_2_fp16/best_model.pt
+
+train_gate_from_scratch: True
+
+# load_wgt_only: True #### Load only main model weight, don't load any polynomial function weight into the model
+weights_teacher: ./work_dir/recognition_256frame/ntu-xview/ST_GCN_3layers_2_fp16/best_model.pt
+
+#### Reduce the frame size to 256 ####
+frame_reduce: True
+
+# feeder
+feeder: feeder.feeder.Feeder
+train_feeder_args:
+  data_path: ./data/NTU-RGB-D/xview/train_data.npy
+  label_path: ./data/NTU-RGB-D/xview/train_label.pkl
+test_feeder_args:
+  data_path: ./data/NTU-RGB-D/xview/val_data.npy
+  label_path: ./data/NTU-RGB-D/xview/val_label.pkl
+
+######## Freeze the polynomial function
+# freeze_poly: True
+
+##### In this experiment, we disable the dropout for both model to get best imitation
+# model
+model: net.st_gcn.Model_replace
+model_args:
+  ##### use 3 layers model as backbone
+  backbone: Model_3layers_2
+  in_channels: 3
+  num_class: 60
+  # dropout: 0.5
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'ntu-rgb+d'
+    strategy: 'spatial'
+  replace_poly: True  #### For the student model, we want to replace it with poly function
+  #### Enable node with polynomial
+  node_wise: True
+  clip_poly: True
+  ##### Conduct the polynomial reduction or not
+  poly_reduce: True
+  lambda_penalty: 1
+  ##### Keep original ReLU operation in the process
+  keep_relu: True
+
+# model
+distil: True
+model_teacher: net.st_gcn.Model_replace
+model_teacher_args:
+  ##### use 3 layers model as backbone
+  backbone: Model_3layers_2
+  in_channels: 3
+  num_class: 60
+  # dropout: 0.5
+  edge_importance_weighting: True
+  graph_args:
+    layout: 'ntu-rgb+d'
+    strategy: 'spatial'
+  replace_poly: False #### For the teacher model, we want to keep original nn.ReLU
+
+
+#optim
+############ Added lookahead to stabilize the x2act training ############
+lookahead: True
+weight_decay: 0.0001
+base_lr: 0.01
+step: [40]
+
+# training
+# device: [0,1,2]
+device: [0]
+batch_size: 64 
+test_batch_size: 256
+num_epoch: 25
+
+mix_precision: True
+format: fp16
+
+

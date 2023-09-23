@@ -1,0 +1,98 @@
+[05.24.23|09:52:08 AM] Load weights from ./model/best_model.pt.
+[05.24.23|09:52:08 AM] Load weights [model.A].
+[05.24.23|09:52:08 AM] Load weights [model.data_bn.weight].
+[05.24.23|09:52:08 AM] Load weights [model.data_bn.bias].
+[05.24.23|09:52:08 AM] Load weights [model.data_bn.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.data_bn.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.data_bn.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.gcn.conv.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.gcn.conv.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.0.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.0.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.0.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.0.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.0.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.1.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.1.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.1.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.1.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.2.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.2.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.3.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.3.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.3.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.3.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.tcn.3.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.relu.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.relu.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.relu.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.0.relu.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.gcn.conv.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.gcn.conv.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.0.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.0.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.0.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.0.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.0.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.1.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.1.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.1.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.1.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.2.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.2.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.3.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.3.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.3.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.3.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.tcn.3.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.0.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.0.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.1.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.1.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.1.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.1.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.residual.1.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.relu.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.relu.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.relu.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.1.relu.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.gcn.conv.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.gcn.conv.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.0.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.0.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.0.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.0.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.0.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.1.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.1.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.1.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.1.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.2.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.2.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.3.weight].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.3.bias].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.3.running_mean].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.3.running_var].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.tcn.3.num_batches_tracked].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.relu.weight_poly_x2].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.relu.weight_poly_x].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.relu.bias_poly].
+[05.24.23|09:52:08 AM] Load weights [model.st_gcn_networks.2.relu.poly_aux].
+[05.24.23|09:52:08 AM] Load weights [model.edge_importance.0].
+[05.24.23|09:52:08 AM] Load weights [model.edge_importance.1].
+[05.24.23|09:52:08 AM] Load weights [model.edge_importance.2].
+[05.24.23|09:52:08 AM] Load weights [model.fcn.weight].
+[05.24.23|09:52:08 AM] Load weights [model.fcn.bias].
+[05.24.23|09:52:09 AM] Parameters:
+{'work_dir': './work_dir/tmp', 'config': 'config/st_gcn_cleaned/ntu-xview/test_poly_reduce_3layers_2_lambda_1.yaml', 'phase': 'test', 'save_result': False, 'start_epoch': 0, 'num_epoch': 80, 'use_gpu': True, 'device': 0, 'log_interval': 100, 'save_interval': 1, 'eval_interval': 1, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'debug': False}, 'test_feeder_args': {'data_path': './data/NTU-RGB-D/xview/val_data.npy', 'label_path': './data/NTU-RGB-D/xview/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model_replace', 'model_args': {'backbone': 'Model_3layers_2', 'in_channels': 3, 'num_class': 60, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}, 'replace_poly': True, 'node_wise': True, 'clip_poly': True, 'poly_reduce': True, 'lambda_penalty': 1, 'freeze_gate': True}, 'distil': False, 'model_teacher': None, 'model_teacher_args': {}, 'weights': './model/best_model.pt', 'weights_teacher': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'eta': 0.9, 'varphi': 1000, 'step': [], 'optimizer': 'SGD', 'nesterov': True, 'lookahead': False, 'weight_decay': 0.0001, 'mix_precision': True, 'grad_compression': False, 'format': 'fp16', 'load_poly': True, 'freeze_poly': False, 'freeze_gate_epoch': 9999, 'load_poly_teacher': False, 'train_gate_from_scratch': False, 'frame_reduce': True}
+
+[05.24.23|09:52:09 AM] Model:   net.st_gcn.Model_replace.
+[05.24.23|09:52:09 AM] Weights: ./model/best_model.pt.
+[05.24.23|09:52:09 AM] Evaluation Start:
+[05.24.23|09:52:40 AM] 	mean_loss: 1.0949063128319338
+[05.24.23|09:52:40 AM] Total original gate: 150. Total remaining gate: 100.0. Percentage: 0.6666666666666666. Layers: 4.0
+[05.24.23|09:52:40 AM] Remaining gate: [10.0, 15.0, 25.0, 25.0, 25.0, 0.0]
+[05.24.23|09:52:41 AM] 	Top1: 78.59%
+[05.24.23|09:52:41 AM] 	Top5: 96.22%
+[05.24.23|09:52:41 AM] Done.
+

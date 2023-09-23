@@ -1,0 +1,66 @@
+# command line: main.py recognition -c config/st_gcn_cleaned/ntu-xview/test_poly_reduce_3layers_2_lambda_1.yaml
+
+base_lr: 0.01
+batch_size: 256
+config: config/st_gcn_cleaned/ntu-xview/test_poly_reduce_3layers_2_lambda_1.yaml
+debug: false
+device: 0
+distil: false
+eta: 0.9
+eval_interval: 1
+feeder: feeder.feeder.Feeder
+format: fp16
+frame_reduce: true
+freeze_gate_epoch: 9999
+freeze_poly: false
+grad_compression: false
+ignore_weights: []
+load_poly: true
+load_poly_teacher: false
+log_interval: 100
+lookahead: false
+mix_precision: true
+model: net.st_gcn.Model_replace
+model_args:
+    backbone: Model_3layers_2
+    clip_poly: true
+    edge_importance_weighting: true
+    freeze_gate: true
+    graph_args:
+        layout: ntu-rgb+d
+        strategy: spatial
+    in_channels: 3
+    lambda_penalty: 1
+    node_wise: true
+    num_class: 60
+    poly_reduce: true
+    replace_poly: true
+model_teacher: null
+model_teacher_args: {}
+nesterov: true
+num_epoch: 80
+num_worker: 4
+optimizer: SGD
+pavi_log: false
+phase: test
+print_log: true
+save_interval: 1
+save_log: true
+save_result: false
+show_topk:
+- 1
+- 5
+start_epoch: 0
+step: []
+test_batch_size: 256
+test_feeder_args:
+    data_path: ./data/NTU-RGB-D/xview/val_data.npy
+    label_path: ./data/NTU-RGB-D/xview/val_label.pkl
+train_feeder_args: {}
+train_gate_from_scratch: false
+use_gpu: true
+varphi: 1000
+weight_decay: 0.0001
+weights: ./model/best_model.pt
+weights_teacher: null
+work_dir: ./work_dir/tmp
