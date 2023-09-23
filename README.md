@@ -16,7 +16,7 @@ Please cite our paper if you use the code ✔
 <!-- ![comp](./figures/overview.png.png) -->
 <img src="./figures/overview.png" width="1000">
 
-We propose LinGCN Framework for structural **Lin**earizated **G**raph **C**onvolution **N**etwork for homomorphically encrypted inference accelerating. 
+We propose **LinGCN** Framework for structural **Lin**earizated **G**raph **C**onvolution **N**etwork for homomorphically encrypted inference accelerating. 
 
 * ***Differentiable structural linearization***, LinGCN proposed a parameterized structural polarization for STGCN network, which release the freedom for each graph nodes to choose their own favored location for non-linear operation and effectively reduce the multiplication depth for homomorphic encryption. 
 
