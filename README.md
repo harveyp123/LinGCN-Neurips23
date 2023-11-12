@@ -6,7 +6,7 @@ Please cite our paper if you use the code ✔
 @inproceedings{peng2023lingcn,
   title={LinGCN: Structural Linearized Graph Convolutional Network for Homomorphically Encrypted Inference},
   author={Peng, Hongwu and Ran, Ran and Luo, Yukui and others},
-  booktitle={Advances in Neural Information Processing Systems},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023}
 }
 ```
